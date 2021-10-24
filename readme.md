@@ -1,6 +1,6 @@
 # Pi-MMC33416
 
-![test](https://github.com/fm4dd/pi-mmc3416/workflows/rpi/badge.svg)
+[![rpi-test](https://github.com/fm4dd/pi-mmc3416/actions/workflows/rpi.yml/badge.svg)](https://github.com/fm4dd/pi-mmc3416/actions/workflows/rpi.yml)
 
 ## Background
 
@@ -8,7 +8,8 @@ This is a C driver program for operating a Memsic MMC33416xPJ magnetic sensor vi
 
 [MEMSIC MMC3416xPJ datasheet](http://www.memsic.com/uploadfiles/2020/08/20200827165224614.pdf)
 
-<img src="images/mmc3416-pmod2rpi.jpg" height="240px" width="320px">  CMPS2 PMOD module during I2C check on a PMOD2RPI interface board
+<img src="images/mmc3416-pmod2rpi.jpg" height="240px" width="320px">
+CMPS2 PMOD module during I2C check on a PMOD2RPI interface board
 
 ## I2C bus connection
 

@@ -2,9 +2,9 @@ name: rpi-test
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -16,6 +16,4 @@ jobs:
     - name: Add libs
       run: sudo apt-get install -y libi2c-dev
     - name: make all
-      run: |
-        cd ./examples/pi-mmc3416
-        make all
+      run: make all
